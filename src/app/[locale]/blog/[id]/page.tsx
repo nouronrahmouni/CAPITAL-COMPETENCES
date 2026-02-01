@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,10 +15,11 @@ const blogImages: Record<string, string> = {
 };
 
 export async function generateMetadata({ 
-  params: { locale, id } 
+  params 
 }: { 
-  params: { locale: string; id: string } 
+  params: Promise<{ locale: string; id: string }> 
 }): Promise<Metadata> {
+  const { locale, id } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
   const posts = t.raw('posts') as Array<{ id: string; title: string; excerpt: string }>;
   const post = posts.find(p => p.id === id);
@@ -47,12 +48,13 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function BlogPostPage({ 
-  params: { locale, id } 
+export default async function BlogPostPage({ 
+  params 
 }: { 
-  params: { locale: string; id: string } 
+  params: Promise<{ locale: string; id: string }> 
 }) {
-  unstable_setRequestLocale(locale);
+  const { locale, id } = await params;
+  setRequestLocale(locale);
   
   const t = useTranslations('blog');
   const posts = t.raw('posts') as Array<{
