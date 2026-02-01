@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="errorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background elements -->
+  <circle cx="100" cy="350" r="100" fill="#eff6ff" opacity="0.5"/>
+  <circle cx="500" cy="80" r="80" fill="#eff6ff" opacity="0.5"/>
+  
+  <!-- 404 Text with style -->
+  <text x="300" y="180" text-anchor="middle" font-size="140" font-weight="800" fill="url(#errorGrad)" font-family="system-ui">404</text>
+  
+  <!-- Broken/search magnifying glass -->
+  <g transform="translate(380, 200)">
+    <!-- Glass circle -->
+    <circle cx="50" cy="50" r="45" stroke="url(#errorGrad)" stroke-width="10" fill="white"/>
+    
+    <!-- Handle -->
+    <line x1="85" y1="85" x2="120" y2="120" stroke="url(#errorGrad)" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Crack in glass -->
+    <path d="M30 35 L50 55 L35 75" stroke="#e2e8f0" stroke-width="4" fill="none"/>
+    
+    <!-- X in glass -->
+    <line x1="35" y1="35" x2="65" y2="65" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+    <line x1="65" y1="35" x2="35" y2="65" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Confused person -->
+  <g transform="translate(100, 200)">
+    <!-- Body -->
+    <rect x="30" y="100" width="60" height="80" rx="10" fill="url(#errorGrad)"/>
+    
+    <!-- Head -->
+    <circle cx="60" cy="60" r="35" fill="#fef3c7"/>
+    
+    <!-- Hair -->
+    <path d="M30 50 Q30 25 60 25 Q90 25 90 50" fill="#6b7280"/>
+    
+    <!-- Confused eyes -->
+    <circle cx="45" cy="55" r="5" fill="#374151"/>
+    <circle cx="75" cy="55" r="5" fill="#374151"/>
+    
+    <!-- Eyebrows raised -->
+    <path d="M38 45 Q45 40 52 45" stroke="#374151" stroke-width="2" fill="none"/>
+    <path d="M68 45 Q75 40 82 45" stroke="#374151" stroke-width="2" fill="none"/>
+    
+    <!-- Confused/O mouth -->
+    <ellipse cx="60" cy="78" rx="8" ry="6" fill="#374151"/>
+    
+    <!-- Question marks around head -->
+    <text x="100" y="40" font-size="24" fill="#9ca3af" font-weight="bold">?</text>
+    <text x="20" y="30" font-size="20" fill="#9ca3af" font-weight="bold">?</text>
+    <text x="85" y="20" font-size="16" fill="#9ca3af" font-weight="bold">?</text>
+  </g>
+  
+  <!-- Decorative elements - floating shapes -->
+  <rect x="250" y="280" width="30" height="30" rx="5" fill="#e2e8f0" transform="rotate(15, 265, 295)"/>
+  <circle cx="330" cy="300" r="12" fill="#dbeafe"/>
+  <polygon points="280,330 295,310 310,330" fill="#fef3c7"/>
+  
+  <!-- Path arrows pointing wrong way -->
+  <g transform="translate(420, 300)">
+    <path d="M0 30 L40 30" stroke="#9ca3af" stroke-width="4"/>
+    <path d="M40 30 L30 20 M40 30 L30 40" stroke="#9ca3af" stroke-width="4" fill="none"/>
+    
+    <path d="M60 50 L100 50" stroke="#9ca3af" stroke-width="4" transform="rotate(45, 80, 50)"/>
+    <path d="M100 50 L90 40 M100 50 L90 60" stroke="#9ca3af" stroke-width="4" fill="none" transform="rotate(45, 80, 50)"/>
+  </g>
+</svg>

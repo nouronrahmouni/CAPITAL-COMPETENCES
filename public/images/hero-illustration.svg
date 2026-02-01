@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#93c5fd"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Elements -->
+  <circle cx="650" cy="150" r="200" fill="url(#bgGrad)"/>
+  <circle cx="150" cy="450" r="150" fill="url(#bgGrad)"/>
+  
+  <!-- Main Figure - Person with laptop -->
+  <g transform="translate(280, 180)">
+    <!-- Desk -->
+    <rect x="0" y="280" width="240" height="12" rx="6" fill="#e2e8f0"/>
+    <rect x="20" y="292" width="8" height="80" fill="#cbd5e1"/>
+    <rect x="212" y="292" width="8" height="80" fill="#cbd5e1"/>
+    
+    <!-- Laptop -->
+    <rect x="40" y="220" width="160" height="100" rx="8" fill="#1e293b"/>
+    <rect x="48" y="228" width="144" height="80" rx="4" fill="url(#primaryGrad)"/>
+    <rect x="56" y="236" width="128" height="64" rx="2" fill="#1e40af"/>
+    
+    <!-- Screen content - chart -->
+    <rect x="64" y="248" width="40" height="40" fill="#3b82f6"/>
+    <rect x="72" y="260" width="8" height="28" fill="#60a5fa"/>
+    <rect x="84" y="252" width="8" height="36" fill="#93c5fd"/>
+    <rect x="96" y="268" width="8" height="20" fill="#60a5fa"/>
+    
+    <rect x="112" y="248" width="64" height="8" rx="2" fill="#60a5fa"/>
+    <rect x="112" y="262" width="48" height="6" rx="2" fill="#93c5fd"/>
+    <rect x="112" y="274" width="56" height="6" rx="2" fill="#93c5fd"/>
+    <rect x="112" y="286" width="40" height="6" rx="2" fill="#93c5fd"/>
+    
+    <!-- Laptop base -->
+    <path d="M30 320 L50 295 L190 295 L210 320 Z" fill="#334155"/>
+    <ellipse cx="120" cy="308" rx="20" ry="3" fill="#475569"/>
+    
+    <!-- Person - Body -->
+    <ellipse cx="120" cy="190" rx="60" ry="35" fill="url(#primaryGrad)"/>
+    
+    <!-- Person - Head -->
+    <circle cx="120" cy="100" r="50" fill="#fcd9bd"/>
+    
+    <!-- Hair -->
+    <path d="M70 90 Q70 50 120 50 Q170 50 170 90 Q170 70 120 75 Q70 70 70 90" fill="#1e293b"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="95" r="5" fill="#1e293b"/>
+    <circle cx="140" cy="95" r="5" fill="#1e293b"/>
+    <path d="M105 115 Q120 130 135 115" stroke="#1e293b" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Arms -->
+    <path d="M60 190 Q30 220 60 260" stroke="#fcd9bd" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M180 190 Q210 220 180 260" stroke="#fcd9bd" stroke-width="20" fill="none" stroke-linecap="round"/>
+    
+    <!-- Hands on laptop -->
+    <circle cx="80" cy="265" r="12" fill="#fcd9bd"/>
+    <circle cx="160" cy="265" r="12" fill="#fcd9bd"/>
+  </g>
+  
+  <!-- Floating Elements - Growth/Success indicators -->
+  <g transform="translate(550, 120)">
+    <!-- Chart going up -->
+    <rect x="0" y="0" width="100" height="80" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <polyline points="15,55 35,45 55,35 75,20" stroke="url(#primaryGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="75" cy="20" r="6" fill="#3b82f6"/>
+    <path d="M75 20 L85 25 L80 15 Z" fill="#3b82f6"/>
+  </g>
+  
+  <g transform="translate(100, 150)">
+    <!-- Certificate/Achievement -->
+    <rect x="0" y="0" width="90" height="70" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="45" cy="28" r="18" fill="url(#accentGrad)"/>
+    <path d="M38 28 L42 32 L52 22" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="20" y="52" width="50" height="6" rx="3" fill="#e2e8f0"/>
+  </g>
+  
+  <g transform="translate(580, 320)">
+    <!-- Lightbulb - Ideas -->
+    <rect x="0" y="0" width="80" height="80" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <path d="M40 15 C25 15 15 28 15 40 C15 50 22 58 30 62 L30 70 L50 70 L50 62 C58 58 65 50 65 40 C65 28 55 15 40 15" fill="url(#primaryGrad)"/>
+    <rect x="32" y="70" width="16" height="4" fill="#1e40af"/>
+    <rect x="34" y="74" width="12" height="2" fill="#1e40af"/>
+    <line x1="40" y1="35" x2="40" y2="52" stroke="white" stroke-width="2"/>
+    <line x1="32" y1="44" x2="48" y2="44" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(80, 350)">
+    <!-- Team/Users -->
+    <rect x="0" y="0" width="100" height="70" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <circle cx="30" cy="30" r="15" fill="url(#accentGrad)"/>
+    <circle cx="50" cy="30" r="15" fill="url(#primaryGrad)"/>
+    <circle cx="70" cy="30" r="15" fill="#1e40af"/>
+    <rect x="15" y="52" width="70" height="6" rx="3" fill="#e2e8f0"/>
+  </g>
+  
+  <!-- Decorative dots -->
+  <circle cx="700" cy="400" r="8" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="720" cy="420" r="5" fill="#60a5fa" opacity="0.5"/>
+  <circle cx="680" cy="430" r="6" fill="#93c5fd" opacity="0.5"/>
+  
+  <circle cx="50" cy="200" r="6" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="70" cy="180" r="4" fill="#60a5fa" opacity="0.5"/>
+  <circle cx="40" cy="230" r="5" fill="#93c5fd" opacity="0.5"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#iconGrad)"/>
+  
+  <!-- CC Logo mark -->
+  <g transform="translate(106, 156)">
+    <!-- First C -->
+    <path d="M100 32 A80 80 0 1 0 100 168" stroke="white" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <!-- Second C -->
+    <path d="M140 32 A80 80 0 1 0 140 168" stroke="#f97316" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <!-- Center dot -->
+    <circle cx="120" cy="100" r="16" fill="white"/>
+  </g>
+</svg>

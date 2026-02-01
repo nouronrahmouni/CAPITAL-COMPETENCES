@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="avatarGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="50" cy="50" r="50" fill="url(#avatarGrad1)"/>
+  
+  <!-- Head -->
+  <circle cx="50" cy="38" r="16" fill="#f3e8ff"/>
+  
+  <!-- Body/shoulders -->
+  <ellipse cx="50" cy="85" rx="30" ry="25" fill="#f3e8ff"/>
+  
+  <!-- Hair - short -->
+  <path d="M35 30 Q35 22 50 22 Q65 22 65 30 Q60 26 50 26 Q40 26 35 30" fill="#374151"/>
+</svg>

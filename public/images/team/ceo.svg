@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#grad1)"/>
+  
+  <!-- Person silhouette - Female professional -->
+  <g transform="translate(40, 25)">
+    <!-- Hair -->
+    <ellipse cx="60" cy="55" rx="45" ry="48" fill="#4a3728"/>
+    <path d="M15 70 Q20 100 30 110 L30 90 Q20 80 15 70" fill="#4a3728"/>
+    <path d="M105 70 Q100 100 90 110 L90 90 Q100 80 105 70" fill="#4a3728"/>
+    
+    <!-- Face -->
+    <ellipse cx="60" cy="70" rx="35" ry="38" fill="#fcd9bd"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="45" cy="65" rx="5" ry="3" fill="#1e293b"/>
+    <ellipse cx="75" cy="65" rx="5" ry="3" fill="#1e293b"/>
+    
+    <!-- Eyebrows -->
+    <path d="M38 58 Q45 55 52 58" stroke="#4a3728" stroke-width="2" fill="none"/>
+    <path d="M68 58 Q75 55 82 58" stroke="#4a3728" stroke-width="2" fill="none"/>
+    
+    <!-- Nose -->
+    <path d="M60 68 L58 78 L62 78" stroke="#e5c4a8" stroke-width="2" fill="none"/>
+    
+    <!-- Smile -->
+    <path d="M48 88 Q60 98 72 88" stroke="#c9967a" stroke-width="2" fill="none"/>
+    
+    <!-- Neck -->
+    <rect x="48" y="105" width="24" height="20" fill="#fcd9bd"/>
+    
+    <!-- Blazer -->
+    <path d="M20 175 L20 130 Q40 115 60 115 Q80 115 100 130 L100 175" fill="#1e40af"/>
+    
+    <!-- Shirt collar -->
+    <path d="M48 115 L60 135 L72 115" fill="white"/>
+    <path d="M48 115 L55 125" stroke="white" stroke-width="2"/>
+    <path d="M72 115 L65 125" stroke="white" stroke-width="2"/>
+  </g>
+</svg>

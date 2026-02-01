@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "title": "Capital Competences - Formation et Développement Professionnel",
+    "description": "Services experts de formation et développement professionnel pour vous aider, vous et votre équipe, à atteindre votre plein potentiel.",
+    "keywords": "formation professionnelle, développement, compétences, évolution de carrière, conseil"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "contactUs": "Nous Contacter",
+    "readMore": "Lire la Suite",
+    "viewAll": "Voir Tout",
+    "submit": "Envoyer",
+    "sending": "Envoi en cours...",
+    "required": "Obligatoire",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "followUs": "Suivez-nous",
+    "copyright": "© 2026 Capital Competences. Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  },
+  "home": {
+    "hero": {
+      "title": "Libérez Votre Plein Potentiel",
+      "subtitle": "Solutions de Formation et Développement Professionnel",
+      "description": "Nous proposons des programmes de formation complets conçus pour améliorer les compétences, stimuler la productivité et favoriser le succès organisationnel.",
+      "cta": "Découvrez Nos Services"
+    },
+    "features": {
+      "title": "Pourquoi Nous Choisir",
+      "subtitle": "La confiance de centaines d'organisations dans le monde",
+      "items": [
+        {
+          "title": "Formateurs Experts",
+          "description": "Nos formateurs certifiés apportent des années d'expérience dans l'industrie pour offrir des expériences d'apprentissage percutantes."
+        },
+        {
+          "title": "Programmes Personnalisés",
+          "description": "Des solutions de formation sur mesure conçues pour répondre à vos besoins et objectifs organisationnels spécifiques."
+        },
+        {
+          "title": "Résultats Prouvés",
+          "description": "Un bilan d'améliorations mesurables en termes de performance et de développement des compétences."
+        },
+        {
+          "title": "Livraison Flexible",
+          "description": "Choisissez parmi des formats de formation en présentiel, virtuels ou hybrides qui correspondent à votre emploi du temps."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Équipe ?",
+      "description": "Contactez-nous dès aujourd'hui pour discuter de la façon dont nous pouvons vous aider à atteindre vos objectifs de formation.",
+      "button": "Planifier une Consultation"
+    },
+    "testimonials": {
+      "title": "Ce Que Disent Nos Clients",
+      "items": [
+        {
+          "quote": "Capital Competences a transformé les capacités de notre équipe. La formation était pratique, engageante et immédiatement applicable.",
+          "author": "Sarah Johnson",
+          "role": "Directrice RH, Tech Corp"
+        },
+        {
+          "quote": "L'approche personnalisée a fait toute la différence. La productivité de notre équipe a augmenté de 40% après le programme.",
+          "author": "Michael Chen",
+          "role": "PDG, Innovation Labs"
+        },
+        {
+          "quote": "Professionnels, compétents et axés sur les résultats. Je recommande vivement leurs programmes de développement du leadership.",
+          "author": "Emma Williams",
+          "role": "Responsable des Opérations, Global Solutions"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de Nous",
+      "subtitle": "Favoriser la Croissance par l'Apprentissage"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Donner aux individus et aux organisations les connaissances, les compétences et la confiance nécessaires pour prospérer dans un paysage professionnel en constante évolution."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Être le principal fournisseur de solutions de développement professionnel transformatrices, reconnu pour l'excellence, l'innovation et l'impact mesurable."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "Nous visons les plus hauts standards dans tout ce que nous faisons."
+        },
+        {
+          "title": "Innovation",
+          "description": "Nous adoptons de nouvelles idées et approches pour offrir des solutions de pointe."
+        },
+        {
+          "title": "Intégrité",
+          "description": "Nous opérons avec transparence, honnêteté et pratiques éthiques."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Nous croyons au pouvoir de travailler ensemble pour atteindre des objectifs communs."
+        }
+      ]
+    },
+    "history": {
+      "title": "Notre Histoire",
+      "description": "Fondée en 2015, Capital Competences a commencé avec une vision simple : combler l'écart entre le potentiel et la performance. Au fil des années, nous sommes passés d'un petit cabinet de conseil à un fournisseur de formation complet, servant des clients dans plusieurs industries et continents. Notre parcours a été marqué par un apprentissage continu, une adaptation et un engagement indéfectible envers le succès de nos clients."
+    },
+    "team": {
+      "title": "Notre Équipe de Direction",
+      "members": [
+        {
+          "name": "Dr. Alexandra Martin",
+          "role": "Fondatrice et PDG",
+          "bio": "Avec plus de 20 ans d'expérience en développement organisationnel, Dr. Martin dirige notre vision stratégique."
+        },
+        {
+          "name": "James Thompson",
+          "role": "Directeur de l'Apprentissage",
+          "bio": "James supervise tous les programmes de formation, s'assurant qu'ils répondent aux normes éducatives les plus élevées."
+        },
+        {
+          "name": "Sophie Laurent",
+          "role": "Directrice du Succès Client",
+          "bio": "Sophie veille à ce que nos clients reçoivent un service exceptionnel et atteignent leurs résultats souhaités."
+        }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Des Solutions de Formation Complètes pour Chaque Besoin"
+    },
+    "items": [
+      {
+        "title": "Développement du Leadership",
+        "description": "Développez des leaders efficaces qui inspirent, motivent et favorisent le succès organisationnel. Nos programmes couvrent la pensée stratégique, l'intelligence émotionnelle et la gestion d'équipe.",
+        "features": ["Coaching Exécutif", "Renforcement d'Équipe", "Planification Stratégique", "Gestion du Changement"]
+      },
+      {
+        "title": "Formation aux Compétences Professionnelles",
+        "description": "Améliorez les compétences essentielles en milieu de travail, y compris la communication, la gestion du temps, la résolution de problèmes et les compétences de prise de décision.",
+        "features": ["Compétences en Communication", "Gestion du Temps", "Pensée Critique", "Négociation"]
+      },
+      {
+        "title": "Formation Technique",
+        "description": "Restez en avance avec une formation aux compétences techniques de pointe dans des domaines tels que l'analyse de données, la gestion de projet et la transformation numérique.",
+        "features": ["Analyse de Données", "Gestion de Projet", "Outils Numériques", "Optimisation des Processus"]
+      },
+      {
+        "title": "Développement d'Équipe",
+        "description": "Construisez des équipes hautement performantes grâce à des ateliers collaboratifs, des évaluations d'équipe et des interventions ciblées qui améliorent la dynamique et la productivité.",
+        "features": ["Évaluations d'Équipe", "Résolution de Conflits", "Ateliers de Collaboration", "Coaching de Performance"]
+      },
+      {
+        "title": "Solutions Personnalisées",
+        "description": "Associez-vous à nous pour créer des programmes de formation sur mesure adaptés aux défis, à la culture et aux objectifs uniques de votre organisation.",
+        "features": ["Évaluation des Besoins", "Curriculum Personnalisé", "Livraison Flexible", "Support Continu"]
+      },
+      {
+        "title": "Programmes de Certification",
+        "description": "Obtenez des accréditations reconnues grâce à nos programmes de certification accrédités conçus pour valider les compétences et faire progresser les carrières.",
+        "features": ["Certifications Industrielles", "Développement Professionnel", "Formation Continue", "Avancement de Carrière"]
+      }
+    ],
+    "cta": {
+      "title": "Besoin d'une Solution Personnalisée ?",
+      "description": "Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et développer des programmes de formation sur mesure qui produisent de vrais résultats.",
+      "button": "Demander une Proposition"
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog et Actualités",
+      "subtitle": "Restez informé des dernières tendances et meilleures pratiques"
+    },
+    "categories": {
+      "all": "Tout",
+      "leadership": "Leadership",
+      "skills": "Développement des Compétences",
+      "trends": "Tendances de l'Industrie",
+      "tips": "Conseils et Meilleures Pratiques"
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "5 Compétences Essentielles de Leadership pour 2026",
+        "excerpt": "Découvrez les compétences clés de leadership qui définiront les leaders à succès dans l'année à venir.",
+        "category": "leadership",
+        "date": "28 janvier 2026",
+        "readTime": "5 min de lecture",
+        "content": "Le leadership en 2026 nécessite un mélange unique de compétences traditionnelles et modernes. L'intelligence émotionnelle, la maîtrise numérique, la pensée adaptative, le leadership inclusif et la vision stratégique sont les cinq piliers qui définiront les leaders à succès. Cet article explore chaque compétence en profondeur, fournissant des informations exploitables pour les leaders en devenir et actuels."
+      },
+      {
+        "id": "2",
+        "title": "L'Avenir de la Gestion d'Équipe à Distance",
+        "excerpt": "Apprenez des stratégies efficaces pour gérer des équipes distribuées et maintenir une haute performance.",
+        "category": "trends",
+        "date": "20 janvier 2026",
+        "readTime": "7 min de lecture",
+        "content": "Le travail à distance est là pour rester, et une gestion d'équipe efficace nécessite de nouvelles approches. De l'établissement de protocoles de communication clairs à l'exploitation des outils de collaboration, ce guide fournit des stratégies complètes pour diriger avec succès des équipes distribuées."
+      },
+      {
+        "id": "3",
+        "title": "Construire une Culture d'Apprentissage Continu",
+        "excerpt": "Comment les organisations peuvent favoriser un environnement où l'apprentissage et la croissance sont prioritaires.",
+        "category": "skills",
+        "date": "15 janvier 2026",
+        "readTime": "6 min de lecture",
+        "content": "Les organisations qui priorisent l'apprentissage surpassent leurs concurrents. Apprenez à créer des systèmes, des incitations et des opportunités qui encouragent le développement continu des compétences à tous les niveaux de votre organisation."
+      },
+      {
+        "id": "4",
+        "title": "Communication Efficace dans le Lieu de Travail Moderne",
+        "excerpt": "Maîtrisez l'art d'une communication claire et percutante sur diverses plateformes et contextes.",
+        "category": "tips",
+        "date": "10 janvier 2026",
+        "readTime": "4 min de lecture",
+        "content": "La communication est le fondement du succès en milieu de travail. Cet article couvre les meilleures pratiques pour la communication écrite, verbale et numérique, vous aidant à transmettre votre message clairement et à construire des relations professionnelles plus solides."
+      }
+    ],
+    "newsletter": {
+      "title": "Abonnez-vous à Notre Newsletter",
+      "description": "Recevez les dernières actualités et conseils directement dans votre boîte de réception.",
+      "placeholder": "Entrez votre email",
+      "button": "S'abonner"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Trouvez des réponses aux questions courantes sur nos services"
+    },
+    "items": [
+      {
+        "question": "Quels types de formation proposez-vous ?",
+        "answer": "Nous offrons une gamme complète de programmes de formation comprenant le développement du leadership, la formation aux compétences professionnelles, les compétences techniques, le développement d'équipe et des solutions d'entreprise personnalisées. Nos programmes peuvent être dispensés en présentiel, virtuellement ou dans un format hybride."
+      },
+      {
+        "question": "Comment personnalisez-vous les programmes de formation ?",
+        "answer": "Notre processus de personnalisation commence par une évaluation approfondie des besoins où nous analysons les objectifs, les défis et la culture de votre organisation. Nous travaillons ensuite en collaboration avec votre équipe pour concevoir des programmes qui comblent les lacunes spécifiques en compétences et s'alignent sur vos objectifs stratégiques."
+      },
+      {
+        "question": "Quelle est la durée typique de vos programmes ?",
+        "answer": "La durée du programme varie en fonction de l'étendue et de la profondeur de la formation requise. Les ateliers courts peuvent durer quelques heures ou une journée complète, tandis que les programmes de développement complets peuvent s'étendre sur plusieurs semaines ou mois. Nous concevons le calendrier pour maximiser la rétention de l'apprentissage et l'application pratique."
+      },
+      {
+        "question": "Proposez-vous des programmes de certification ?",
+        "answer": "Oui, nous proposons plusieurs programmes de certification accrédités qui fournissent des accréditations reconnues dans diverses compétences professionnelles. Ces certifications peuvent améliorer les perspectives de carrière et démontrer l'expertise aux employeurs et clients."
+      },
+      {
+        "question": "Comment mesurez-vous l'efficacité de la formation ?",
+        "answer": "Nous employons une approche d'évaluation multi-niveaux qui comprend les commentaires des participants, les évaluations des connaissances, les observations de changement de comportement et les métriques d'impact commercial. Cette mesure complète garantit que nos programmes produisent des résultats tangibles et mesurables."
+      },
+      {
+        "question": "Pouvez-vous former des équipes sur plusieurs sites ?",
+        "answer": "Absolument. Nos options de livraison flexibles incluent la formation virtuelle dirigée par un instructeur, les modules en ligne à votre rythme et les approches hybrides qui peuvent accueillir des équipes réparties sur différents sites et fuseaux horaires."
+      },
+      {
+        "question": "Quelles industries servez-vous ?",
+        "answer": "Nous servons des clients dans un large éventail d'industries, notamment la technologie, la santé, la finance, la fabrication, le commerce de détail et les services professionnels. Notre expertise nous permet d'adapter nos programmes au contexte et aux exigences spécifiques de chaque secteur."
+      },
+      {
+        "question": "Comment puis-je commencer ?",
+        "answer": "Commencer est facile. Contactez-nous simplement via notre site Web ou appelez-nous pour planifier une consultation gratuite. Nous discuterons de vos besoins, répondrons à toutes vos questions et fournirons des recommandations pour les meilleures solutions de formation pour votre organisation."
+      }
+    ],
+    "contact": {
+      "title": "Vous avez encore des questions ?",
+      "description": "Notre équipe est là pour vous aider. Contactez-nous et nous vous répondrons rapidement.",
+      "button": "Nous Contacter"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Nous serions ravis de vous entendre"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "name": "Nom Complet",
+      "namePlaceholder": "Jean Dupont",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@exemple.com",
+      "phone": "Numéro de Téléphone (Optionnel)",
+      "phonePlaceholder": "+33 1 23 45 67 89",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos besoins de formation...",
+      "submit": "Envoyer le Message",
+      "success": "Merci pour votre message ! Nous vous répondrons dans les 24 heures.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    },
+    "info": {
+      "title": "Entrer en Contact",
+      "description": "Vous avez des questions sur nos services ? Vous souhaitez discuter d'une solution de formation personnalisée ? Nous sommes là pour vous aider.",
+      "email": "info@capitalcompetences.com",
+      "phone": "+33 1 23 45 67 89",
+      "address": "123 Centre d'Affaires, Bureau 500\n75001 Paris\nFrance",
+      "hours": "Lundi - Vendredi : 9h00 - 18h00 CET"
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 1er janvier 2026",
+    "intro": "Chez Capital Competences, nous nous engageons à protéger votre vie privée. Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site Web.",
+    "sections": [
+      {
+        "title": "Informations que Nous Collectons",
+        "content": "Nous pouvons collecter des informations personnelles que vous nous fournissez volontairement lorsque vous vous inscrivez sur le site Web, exprimez un intérêt à obtenir des informations sur nous ou nos produits et services, participez à des activités sur le site Web ou nous contactez autrement. Les informations personnelles que nous collectons peuvent inclure : nom, adresse email, numéro de téléphone, nom de l'entreprise et titre du poste."
+      },
+      {
+        "title": "Comment Nous Utilisons Vos Informations",
+        "content": "Nous utilisons les informations personnelles collectées via notre site Web à diverses fins commerciales, notamment : fournir et maintenir nos services, vous informer des modifications apportées à nos services, vous permettre de participer à des fonctionnalités interactives, fournir un support client, recueillir des analyses ou des informations précieuses pour améliorer nos services, surveiller l'utilisation de nos services et détecter, prévenir et résoudre les problèmes techniques."
+      },
+      {
+        "title": "Partage de Vos Informations",
+        "content": "Nous pouvons partager vos informations avec des prestataires de services tiers qui effectuent des services pour nous ou en notre nom, tels que le traitement des paiements, l'analyse de données, la livraison d'emails, les services d'hébergement, le service client et l'assistance marketing. Nous ne vendons pas vos informations personnelles à des tiers."
+      },
+      {
+        "title": "Cookies et Technologies de Suivi",
+        "content": "Nous pouvons utiliser des cookies et des technologies de suivi similaires pour suivre l'activité sur notre site Web et conserver certaines informations. Les cookies sont des fichiers contenant une petite quantité de données qui peuvent inclure un identifiant unique anonyme. Vous pouvez demander à votre navigateur de refuser tous les cookies ou d'indiquer quand un cookie est envoyé."
+      },
+      {
+        "title": "Sécurité des Données",
+        "content": "Nous avons mis en place des mesures de sécurité techniques et organisationnelles appropriées conçues pour protéger la sécurité de toutes les informations personnelles que nous traitons. Cependant, veuillez également vous rappeler que nous ne pouvons pas garantir que l'internet lui-même est 100% sécurisé."
+      },
+      {
+        "title": "Vos Droits",
+        "content": "Selon votre emplacement, vous pouvez avoir certains droits concernant vos informations personnelles, y compris le droit d'accéder, de corriger ou de supprimer vos données personnelles. Pour exercer ces droits, veuillez nous contacter en utilisant les informations fournies ci-dessous."
+      },
+      {
+        "title": "Nous Contacter",
+        "content": "Si vous avez des questions ou des préoccupations concernant cette Politique de Confidentialité ou nos pratiques, veuillez nous contacter à privacy@capitalcompetences.com ou par courrier à : Capital Competences, 123 Centre d'Affaires, Bureau 500, 75001 Paris, France."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 1er janvier 2026",
+    "intro": "Veuillez lire attentivement ces Conditions d'Utilisation avant d'utiliser le site Web de Capital Competences. En accédant ou en utilisant notre site Web, vous acceptez d'être lié par ces conditions.",
+    "sections": [
+      {
+        "title": "Acceptation des Conditions",
+        "content": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par les termes et dispositions de cet accord. Si vous n'acceptez pas de respecter ces conditions, veuillez ne pas utiliser ce site Web."
+      },
+      {
+        "title": "Utilisation des Services",
+        "content": "Nos services sont destinés à un usage professionnel et commercial. Vous acceptez d'utiliser notre site Web et nos services uniquement à des fins légales et conformément à ces Conditions. Vous acceptez de ne pas utiliser nos services d'une manière qui viole les lois ou réglementations applicables."
+      },
+      {
+        "title": "Propriété Intellectuelle",
+        "content": "Le contenu, les fonctionnalités et les fonctionnalités de ce site Web, y compris mais sans s'y limiter, le texte, les graphiques, les logos, les icônes, les images, les clips audio et les logiciels, sont la propriété exclusive de Capital Competences et sont protégés par les lois internationales sur le droit d'auteur, les marques de commerce et autres lois sur la propriété intellectuelle."
+      },
+      {
+        "title": "Comptes Utilisateurs",
+        "content": "Lorsque vous créez un compte chez nous, vous devez fournir des informations exactes, complètes et à jour. Vous êtes responsable de la protection du mot de passe et de toutes les activités qui se produisent sous votre compte. Vous acceptez de nous informer immédiatement de tout accès ou utilisation non autorisé de votre compte."
+      },
+      {
+        "title": "Conditions de Paiement",
+        "content": "Pour les services payants, vous acceptez de payer tous les frais associés à votre plan sélectionné. Tous les paiements sont non remboursables sauf indication contraire. Nous nous réservons le droit de modifier nos tarifs à tout moment, avec un préavis fourni aux clients existants."
+      },
+      {
+        "title": "Limitation de Responsabilité",
+        "content": "En aucun cas Capital Competences, ses administrateurs, employés, partenaires, agents, fournisseurs ou affiliés ne seront responsables de tout dommage indirect, accessoire, spécial, consécutif ou punitif, y compris sans limitation, la perte de profits, de données, d'utilisation, de clientèle ou d'autres pertes immatérielles."
+      },
+      {
+        "title": "Modifications des Conditions",
+        "content": "Nous nous réservons le droit de modifier ou de remplacer ces Conditions à tout moment. Si une révision est importante, nous essaierons de fournir un préavis d'au moins 30 jours avant l'entrée en vigueur des nouvelles conditions. Votre utilisation continue du site Web après tout changement constitue l'acceptation des nouvelles Conditions."
+      },
+      {
+        "title": "Informations de Contact",
+        "content": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter à legal@capitalcompetences.com ou par courrier à : Capital Competences, 123 Centre d'Affaires, Bureau 500, 75001 Paris, France."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Donner aux individus et aux organisations des solutions de formation et de développement professionnel.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "legal": "Légal",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation"
+  }
+}

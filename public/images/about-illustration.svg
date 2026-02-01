@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#93c5fd"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background shapes -->
+  <circle cx="700" cy="100" r="200" fill="#eff6ff" opacity="0.5"/>
+  <circle cx="100" cy="400" r="150" fill="#eff6ff" opacity="0.5"/>
+  
+  <!-- Mission illustration - Target with arrow -->
+  <g transform="translate(80, 100)">
+    <circle cx="100" cy="100" r="90" stroke="url(#grad1)" stroke-width="8" fill="none"/>
+    <circle cx="100" cy="100" r="60" stroke="url(#grad2)" stroke-width="6" fill="none"/>
+    <circle cx="100" cy="100" r="30" fill="url(#grad1)"/>
+    
+    <!-- Arrow -->
+    <line x1="180" y1="20" x2="115" y2="85" stroke="#1e40af" stroke-width="6"/>
+    <polygon points="110,80 130,70 120,90" fill="#1e40af"/>
+    <polygon points="180,5 200,15 185,30" fill="url(#grad1)"/>
+  </g>
+  
+  <!-- Vision illustration - Eye with horizon -->
+  <g transform="translate(350, 80)">
+    <!-- Eye shape -->
+    <ellipse cx="100" cy="80" rx="90" ry="50" stroke="url(#grad1)" stroke-width="6" fill="white"/>
+    <circle cx="100" cy="80" r="35" fill="url(#grad1)"/>
+    <circle cx="100" cy="80" r="15" fill="white"/>
+    <circle cx="105" cy="75" r="8" fill="#1e40af"/>
+    
+    <!-- Vision rays -->
+    <line x1="100" y1="140" x2="40" y2="180" stroke="url(#grad2)" stroke-width="3" opacity="0.6"/>
+    <line x1="100" y1="140" x2="100" y2="190" stroke="url(#grad2)" stroke-width="3" opacity="0.6"/>
+    <line x1="100" y1="140" x2="160" y2="180" stroke="url(#grad2)" stroke-width="3" opacity="0.6"/>
+  </g>
+  
+  <!-- Values illustration - Connected hearts/people -->
+  <g transform="translate(600, 100)">
+    <circle cx="50" cy="50" r="40" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="120" cy="50" r="40" fill="url(#grad1)" opacity="0.8"/>
+    <circle cx="85" cy="110" r="40" fill="url(#grad2)" opacity="0.8"/>
+    
+    <!-- Connection lines -->
+    <line x1="70" y1="50" x2="100" y2="50" stroke="white" stroke-width="4"/>
+    <line x1="60" y1="75" x2="75" y2="95" stroke="white" stroke-width="4"/>
+    <line x1="110" y1="75" x2="95" y2="95" stroke="white" stroke-width="4"/>
+    
+    <!-- Checkmarks -->
+    <path d="M40 50 L47 57 L60 42" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M110 50 L117 57 L130 42" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M75 110 L82 117 L95 102" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Timeline illustration -->
+  <g transform="translate(100, 320)">
+    <!-- Timeline line -->
+    <line x1="0" y1="50" x2="600" y2="50" stroke="#e2e8f0" stroke-width="4"/>
+    
+    <!-- Milestones -->
+    <circle cx="50" cy="50" r="20" fill="url(#grad1)"/>
+    <text x="50" y="90" text-anchor="middle" fill="#1e40af" font-weight="bold" font-size="14">2015</text>
+    
+    <circle cx="200" cy="50" r="20" fill="url(#grad1)"/>
+    <text x="200" y="90" text-anchor="middle" fill="#1e40af" font-weight="bold" font-size="14">2018</text>
+    
+    <circle cx="350" cy="50" r="20" fill="url(#grad1)"/>
+    <text x="350" y="90" text-anchor="middle" fill="#1e40af" font-weight="bold" font-size="14">2021</text>
+    
+    <circle cx="500" cy="50" r="20" fill="url(#grad1)"/>
+    <text x="500" y="90" text-anchor="middle" fill="#1e40af" font-weight="bold" font-size="14">2024</text>
+    
+    <!-- Growth indicators -->
+    <path d="M50 35 L50 15" stroke="white" stroke-width="3"/>
+    <path d="M200 35 L200 10" stroke="white" stroke-width="3"/>
+    <path d="M350 35 L350 5" stroke="white" stroke-width="3"/>
+    <path d="M500 35 L500 0" stroke="white" stroke-width="3"/>
+    
+    <circle cx="50" cy="12" r="6" fill="#fbbf24"/>
+    <circle cx="200" cy="7" r="6" fill="#fbbf24"/>
+    <circle cx="350" cy="2" r="6" fill="#fbbf24"/>
+    <circle cx="500" cy="-3" r="8" fill="#fbbf24"/>
+  </g>
+</svg>

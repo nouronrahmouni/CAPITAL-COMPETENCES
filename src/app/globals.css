@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 248, 250, 252;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 248, 250, 252;
+    --background-start-rgb: 15, 23, 42;
+    --background-end-rgb: 30, 41, 59;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Accessibility - Focus Styles */
+*:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #1e40af;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Button Styles */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-primary-700 bg-primary-50 rounded-lg hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-200;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-primary-600 bg-transparent border-2 border-primary-600 rounded-lg hover:bg-primary-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-secondary-900 mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-secondary-600 max-w-2xl mx-auto;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Form Styles */
+input, textarea, select {
+  @apply w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
+}
+
+input:focus, textarea:focus, select:focus {
+  @apply outline-none;
+}
+
+/* Gradient Text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400;
+}
+
+/* Hero Section Gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+}
+
+/* Section Backgrounds */
+.section-light {
+  @apply bg-white;
+}
+
+.section-gray {
+  @apply bg-secondary-50;
+}
+
+/* Responsive Typography */
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl font-bold leading-tight;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+}
+
+/* Loading Animation */
+.loading-spinner {
+  @apply animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

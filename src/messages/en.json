@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "title": "Capital Competences - Professional Training & Development",
+    "description": "Expert professional training and development services to help you and your team reach their full potential.",
+    "keywords": "professional training, development, skills, career growth, consulting"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "required": "Required",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "followUs": "Follow Us",
+    "copyright": "© 2026 Capital Competences. All rights reserved.",
+    "backToTop": "Back to Top"
+  },
+  "home": {
+    "hero": {
+      "title": "Unlock Your Full Potential",
+      "subtitle": "Professional Training & Development Solutions",
+      "description": "We provide comprehensive training programs designed to enhance skills, boost productivity, and drive organizational success.",
+      "cta": "Explore Our Services"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "Trusted by hundreds of organizations worldwide",
+      "items": [
+        {
+          "title": "Expert Trainers",
+          "description": "Our certified trainers bring years of industry experience to deliver impactful learning experiences."
+        },
+        {
+          "title": "Customized Programs",
+          "description": "Tailored training solutions designed to meet your specific organizational needs and goals."
+        },
+        {
+          "title": "Proven Results",
+          "description": "Track record of measurable improvements in performance and skill development."
+        },
+        {
+          "title": "Flexible Delivery",
+          "description": "Choose from in-person, virtual, or hybrid training formats that fit your schedule."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Team?",
+      "description": "Get in touch with us today to discuss how we can help you achieve your training goals.",
+      "button": "Schedule a Consultation"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "items": [
+        {
+          "quote": "Capital Competences transformed our team's capabilities. The training was practical, engaging, and immediately applicable.",
+          "author": "Sarah Johnson",
+          "role": "HR Director, Tech Corp"
+        },
+        {
+          "quote": "The customized approach made all the difference. Our team's productivity increased by 40% after the program.",
+          "author": "Michael Chen",
+          "role": "CEO, Innovation Labs"
+        },
+        {
+          "quote": "Professional, knowledgeable, and results-driven. Highly recommend their leadership development programs.",
+          "author": "Emma Williams",
+          "role": "Operations Manager, Global Solutions"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Empowering Growth Through Learning"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower individuals and organizations with the knowledge, skills, and confidence needed to thrive in an ever-evolving professional landscape."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading provider of transformative professional development solutions, recognized for excellence, innovation, and measurable impact."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Excellence",
+          "description": "We strive for the highest standards in everything we do."
+        },
+        {
+          "title": "Innovation",
+          "description": "We embrace new ideas and approaches to deliver cutting-edge solutions."
+        },
+        {
+          "title": "Integrity",
+          "description": "We operate with transparency, honesty, and ethical practices."
+        },
+        {
+          "title": "Collaboration",
+          "description": "We believe in the power of working together to achieve shared goals."
+        }
+      ]
+    },
+    "history": {
+      "title": "Our Story",
+      "description": "Founded in 2015, Capital Competences began with a simple vision: to bridge the gap between potential and performance. Over the years, we have grown from a small consulting firm to a comprehensive training provider, serving clients across multiple industries and continents. Our journey has been marked by continuous learning, adaptation, and an unwavering commitment to our clients' success."
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "members": [
+        {
+          "name": "Dr. Alexandra Martin",
+          "role": "Founder & CEO",
+          "bio": "With over 20 years of experience in organizational development, Dr. Martin leads our strategic vision."
+        },
+        {
+          "name": "James Thompson",
+          "role": "Chief Learning Officer",
+          "bio": "James oversees all training programs, ensuring they meet the highest educational standards."
+        },
+        {
+          "name": "Sophie Laurent",
+          "role": "Director of Client Success",
+          "bio": "Sophie ensures our clients receive exceptional service and achieve their desired outcomes."
+        }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive Training Solutions for Every Need"
+    },
+    "items": [
+      {
+        "title": "Leadership Development",
+        "description": "Develop effective leaders who inspire, motivate, and drive organizational success. Our programs cover strategic thinking, emotional intelligence, and team management.",
+        "features": ["Executive Coaching", "Team Building", "Strategic Planning", "Change Management"]
+      },
+      {
+        "title": "Professional Skills Training",
+        "description": "Enhance essential workplace competencies including communication, time management, problem-solving, and decision-making skills.",
+        "features": ["Communication Skills", "Time Management", "Critical Thinking", "Negotiation"]
+      },
+      {
+        "title": "Technical Training",
+        "description": "Stay ahead with cutting-edge technical skills training in areas such as data analysis, project management, and digital transformation.",
+        "features": ["Data Analytics", "Project Management", "Digital Tools", "Process Optimization"]
+      },
+      {
+        "title": "Team Development",
+        "description": "Build high-performing teams through collaborative workshops, team assessments, and targeted interventions that improve dynamics and productivity.",
+        "features": ["Team Assessments", "Conflict Resolution", "Collaboration Workshops", "Performance Coaching"]
+      },
+      {
+        "title": "Customized Solutions",
+        "description": "Partner with us to create bespoke training programs tailored to your organization's unique challenges, culture, and objectives.",
+        "features": ["Needs Assessment", "Custom Curriculum", "Flexible Delivery", "Ongoing Support"]
+      },
+      {
+        "title": "Certification Programs",
+        "description": "Gain recognized credentials through our accredited certification programs designed to validate skills and advance careers.",
+        "features": ["Industry Certifications", "Professional Development", "Continuing Education", "Career Advancement"]
+      }
+    ],
+    "cta": {
+      "title": "Need a Custom Solution?",
+      "description": "We work closely with you to understand your needs and develop tailored training programs that deliver real results.",
+      "button": "Request a Proposal"
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog & Insights",
+      "subtitle": "Stay informed with the latest trends and best practices"
+    },
+    "categories": {
+      "all": "All",
+      "leadership": "Leadership",
+      "skills": "Skills Development",
+      "trends": "Industry Trends",
+      "tips": "Tips & Best Practices"
+    },
+    "posts": [
+      {
+        "id": "1",
+        "title": "5 Essential Leadership Skills for 2026",
+        "excerpt": "Discover the key leadership competencies that will define successful leaders in the coming year.",
+        "category": "leadership",
+        "date": "January 28, 2026",
+        "readTime": "5 min read",
+        "content": "Leadership in 2026 requires a unique blend of traditional and modern skills. Emotional intelligence, digital fluency, adaptive thinking, inclusive leadership, and strategic vision are the five pillars that will define successful leaders. This article explores each competency in depth, providing actionable insights for aspiring and current leaders alike."
+      },
+      {
+        "id": "2",
+        "title": "The Future of Remote Team Management",
+        "excerpt": "Learn effective strategies for managing distributed teams and maintaining high performance.",
+        "category": "trends",
+        "date": "January 20, 2026",
+        "readTime": "7 min read",
+        "content": "Remote work is here to stay, and effective team management requires new approaches. From establishing clear communication protocols to leveraging collaboration tools, this guide provides comprehensive strategies for leading distributed teams successfully."
+      },
+      {
+        "id": "3",
+        "title": "Building a Culture of Continuous Learning",
+        "excerpt": "How organizations can foster an environment where learning and growth are prioritized.",
+        "category": "skills",
+        "date": "January 15, 2026",
+        "readTime": "6 min read",
+        "content": "Organizations that prioritize learning outperform their competitors. Learn how to create systems, incentives, and opportunities that encourage continuous skill development at all levels of your organization."
+      },
+      {
+        "id": "4",
+        "title": "Effective Communication in the Modern Workplace",
+        "excerpt": "Master the art of clear, impactful communication across various platforms and contexts.",
+        "category": "tips",
+        "date": "January 10, 2026",
+        "readTime": "4 min read",
+        "content": "Communication is the foundation of workplace success. This article covers best practices for written, verbal, and digital communication, helping you convey your message clearly and build stronger professional relationships."
+      }
+    ],
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest insights and tips delivered directly to your inbox.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our services"
+    },
+    "items": [
+      {
+        "question": "What types of training do you offer?",
+        "answer": "We offer a comprehensive range of training programs including leadership development, professional skills training, technical skills, team development, and customized corporate solutions. Our programs can be delivered in-person, virtually, or in a hybrid format."
+      },
+      {
+        "question": "How do you customize training programs?",
+        "answer": "Our customization process begins with a thorough needs assessment where we analyze your organization's goals, challenges, and culture. We then work collaboratively with your team to design programs that address specific competency gaps and align with your strategic objectives."
+      },
+      {
+        "question": "What is the typical duration of your programs?",
+        "answer": "Program duration varies based on the scope and depth of training required. Short workshops may last a few hours or a full day, while comprehensive development programs can span several weeks or months. We design the timeline to maximize learning retention and practical application."
+      },
+      {
+        "question": "Do you offer certification programs?",
+        "answer": "Yes, we offer several accredited certification programs that provide recognized credentials in various professional competencies. These certifications can enhance career prospects and demonstrate expertise to employers and clients."
+      },
+      {
+        "question": "How do you measure training effectiveness?",
+        "answer": "We employ a multi-level evaluation approach that includes participant feedback, knowledge assessments, behavior change observations, and business impact metrics. This comprehensive measurement ensures our programs deliver tangible, measurable results."
+      },
+      {
+        "question": "Can you train teams across multiple locations?",
+        "answer": "Absolutely. Our flexible delivery options include virtual instructor-led training, self-paced online modules, and hybrid approaches that can accommodate teams distributed across different locations and time zones."
+      },
+      {
+        "question": "What industries do you serve?",
+        "answer": "We serve clients across a wide range of industries including technology, healthcare, finance, manufacturing, retail, and professional services. Our expertise allows us to adapt our programs to the specific context and requirements of each sector."
+      },
+      {
+        "question": "How do I get started?",
+        "answer": "Getting started is easy. Simply contact us through our website or give us a call to schedule a free consultation. We'll discuss your needs, answer any questions, and provide recommendations for the best training solutions for your organization."
+      }
+    ],
+    "contact": {
+      "title": "Still have questions?",
+      "description": "Our team is here to help. Reach out and we'll get back to you promptly.",
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We'd love to hear from you"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number (Optional)",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your training needs...",
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or contact us directly."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "Have questions about our services? Want to discuss a custom training solution? We're here to help.",
+      "email": "info@capitalcompetences.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business Center, Suite 500\nNew York, NY 10001\nUnited States",
+      "hours": "Monday - Friday: 9:00 AM - 6:00 PM EST"
+    },
+    "social": {
+      "title": "Follow Us",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: January 1, 2026",
+    "intro": "At Capital Competences, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.",
+    "sections": [
+      {
+        "title": "Information We Collect",
+        "content": "We may collect personal information that you voluntarily provide to us when you register on the website, express interest in obtaining information about us or our products and services, participate in activities on the website, or otherwise contact us. The personal information we collect may include: name, email address, phone number, company name, and job title."
+      },
+      {
+        "title": "How We Use Your Information",
+        "content": "We use personal information collected via our website for a variety of business purposes including: to provide and maintain our services, to notify you about changes to our services, to allow you to participate in interactive features, to provide customer support, to gather analysis or valuable information to improve our services, to monitor the usage of our services, and to detect, prevent and address technical issues."
+      },
+      {
+        "title": "Sharing Your Information",
+        "content": "We may share your information with third-party service providers who perform services for us or on our behalf, such as payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance. We do not sell your personal information to third parties."
+      },
+      {
+        "title": "Cookies and Tracking Technologies",
+        "content": "We may use cookies and similar tracking technologies to track activity on our website and hold certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "title": "Data Security",
+        "content": "We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, please also remember that we cannot guarantee that the internet itself is 100% secure."
+      },
+      {
+        "title": "Your Rights",
+        "content": "Depending on your location, you may have certain rights regarding your personal information, including the right to access, correct, or delete your personal data. To exercise these rights, please contact us using the information provided below."
+      },
+      {
+        "title": "Contact Us",
+        "content": "If you have questions or concerns about this Privacy Policy or our practices, please contact us at privacy@capitalcompetences.com or by mail at: Capital Competences, 123 Business Center, Suite 500, New York, NY 10001, United States."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: January 1, 2026",
+    "intro": "Please read these Terms of Service carefully before using the Capital Competences website. By accessing or using our website, you agree to be bound by these terms.",
+    "sections": [
+      {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by these terms, please do not use this website."
+      },
+      {
+        "title": "Use of Services",
+        "content": "Our services are intended for business and professional use. You agree to use our website and services only for lawful purposes and in accordance with these Terms. You agree not to use our services in any way that violates any applicable laws or regulations."
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "The content, features, and functionality of this website, including but not limited to text, graphics, logos, icons, images, audio clips, and software, are the exclusive property of Capital Competences and are protected by international copyright, trademark, and other intellectual property laws."
+      },
+      {
+        "title": "User Accounts",
+        "content": "When you create an account with us, you must provide accurate, complete, and current information. You are responsible for safeguarding the password and for all activities that occur under your account. You agree to notify us immediately of any unauthorized access or use of your account."
+      },
+      {
+        "title": "Payment Terms",
+        "content": "For paid services, you agree to pay all fees associated with your selected plan. All payments are non-refundable unless otherwise stated. We reserve the right to change our pricing at any time, with notice provided to existing customers."
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": "In no event shall Capital Competences, its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+      },
+      {
+        "title": "Changes to Terms",
+        "content": "We reserve the right to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days' notice prior to any new terms taking effect. Your continued use of the website after any changes constitutes acceptance of the new Terms."
+      },
+      {
+        "title": "Contact Information",
+        "content": "If you have any questions about these Terms, please contact us at legal@capitalcompetences.com or by mail at: Capital Competences, 123 Business Center, Suite 500, New York, NY 10001, United States."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Empowering individuals and organizations with professional training and development solutions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}
