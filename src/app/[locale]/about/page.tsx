@@ -5,8 +5,6 @@ import Link from 'next/link';
 import { 
   Target, 
   Eye, 
-  Heart, 
-  Users, 
   Lightbulb, 
   Shield, 
   Handshake,

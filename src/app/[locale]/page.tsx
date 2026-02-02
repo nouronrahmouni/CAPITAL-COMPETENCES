@@ -8,8 +8,7 @@ import {
   Target, 
   Award, 
   Calendar,
-  Star,
-  CheckCircle
+  Star
 } from 'lucide-react';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

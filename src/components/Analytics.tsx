@@ -1,10 +1,5 @@
 import Script from 'next/script';
 
-interface AnalyticsProps {
-  gaId?: string;
-  gtmId?: string;
-}
-
 export function GoogleAnalytics({ gaId }: { gaId: string }) {
   return (
     <>

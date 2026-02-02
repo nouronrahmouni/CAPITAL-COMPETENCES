@@ -6,7 +6,6 @@ import { useTranslations, useLocale } from 'next-intl';
 import { 
   Mail, 
   Phone, 
-  MapPin, 
   Linkedin, 
   Twitter, 
   Facebook, 
