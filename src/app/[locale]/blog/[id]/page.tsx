@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
@@ -56,7 +55,8 @@ export default async function BlogPostPage({
   const { locale, id } = await params;
   setRequestLocale(locale);
   
-  const t = useTranslations('blog');
+  const t = await getTranslations({ locale, namespace: 'blog' });
+  const tCommon = await getTranslations({ locale, namespace: 'common' });
   const posts = t.raw('posts') as Array<{
     id: string;
     title: string;
@@ -87,7 +87,7 @@ export default async function BlogPostPage({
             className="inline-flex items-center gap-2 text-primary-200 hover:text-white mb-6 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            {useTranslations('common')('viewAll')}
+            {tCommon('viewAll')}
           </Link>
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 text-sm text-primary-200 mb-4">

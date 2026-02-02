@@ -45,6 +45,7 @@ function HeroSection() {
 
 function BlogPosts() {
   const t = useTranslations('blog');
+  const tCommon = useTranslations('common');
   const posts = t.raw('posts') as Array<{
     id: string;
     title: string;
@@ -137,7 +138,7 @@ function BlogPosts() {
                     href={`/${locale}/blog/${post.id}`}
                     className="text-primary-600 font-medium text-sm hover:text-primary-700 transition-colors"
                   >
-                    {useTranslations('common')('readMore')} →
+                    {tCommon('readMore')} →
                   </Link>
                 </div>
               </div>

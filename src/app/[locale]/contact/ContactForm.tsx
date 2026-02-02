@@ -18,6 +18,7 @@ import {
 
 export default function ContactForm() {
   const t = useTranslations('contact');
+  const tCommon = useTranslations('common');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -167,7 +168,7 @@ export default function ContactForm() {
                 {status === 'loading' ? (
                   <>
                     <span className="loading-spinner mr-2" />
-                    {useTranslations('common')('sending')}
+                    {tCommon('sending')}
                   </>
                 ) : status === 'success' ? (
                   <>
