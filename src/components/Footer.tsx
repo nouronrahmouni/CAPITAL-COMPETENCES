@@ -75,18 +75,18 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3">
               <a
-                href={`mailto:${t('contact.info.email')}`}
+                href={`mailto:${t('contact.info.offices.france.email')}`}
                 className="flex items-center gap-3 text-secondary-400 hover:text-white transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>{t('contact.info.email')}</span>
+                <span>{t('contact.info.offices.france.email')}</span>
               </a>
               <a
-                href={`tel:${t('contact.info.phone')}`}
+                href={`tel:${t('contact.info.offices.france.phone').replace(/\s/g, '')}`}
                 className="flex items-center gap-3 text-secondary-400 hover:text-white transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>{t('contact.info.phone')}</span>
+                <span>{t('contact.info.offices.france.phone')}</span>
               </a>
             </div>
           </div>

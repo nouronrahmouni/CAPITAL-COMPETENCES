@@ -209,63 +209,81 @@ export default function ContactForm() {
               {t('info.description')}
             </p>
 
-            <div className="space-y-6">
-              {/* Email */}
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary-100 text-primary-600 rounded-lg">
-                  <Mail className="w-6 h-6" />
-                </div>
-                <div>
-                  <p className="font-semibold text-secondary-900">{useTranslations('common')('email')}</p>
+            {/* France Office */}
+            <div className="mb-8 p-6 bg-secondary-50 rounded-xl">
+              <h3 className="text-lg font-bold text-secondary-900 mb-4 flex items-center gap-2">
+                <span className="text-xl">🇫🇷</span>
+                {t('info.offices.france.title')}
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <Mail className="w-5 h-5 text-primary-600 mt-0.5" />
                   <a 
-                    href={`mailto:${t('info.email')}`}
+                    href={`mailto:${t('info.offices.france.email')}`}
                     className="text-primary-600 hover:text-primary-700 transition-colors"
                   >
-                    {t('info.email')}
+                    {t('info.offices.france.email')}
                   </a>
                 </div>
-              </div>
-
-              {/* Phone */}
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary-100 text-primary-600 rounded-lg">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div>
-                  <p className="font-semibold text-secondary-900">{useTranslations('common')('phone')}</p>
+                <div className="flex items-start gap-3">
+                  <Phone className="w-5 h-5 text-primary-600 mt-0.5" />
                   <a 
-                    href={`tel:${t('info.phone')}`}
+                    href={`tel:${t('info.offices.france.phone').replace(/\s/g, '')}`}
                     className="text-primary-600 hover:text-primary-700 transition-colors"
                   >
-                    {t('info.phone')}
+                    {t('info.offices.france.phone')}
                   </a>
                 </div>
-              </div>
-
-              {/* Address */}
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary-100 text-primary-600 rounded-lg">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <div>
-                  <p className="font-semibold text-secondary-900">{useTranslations('common')('address')}</p>
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-primary-600 mt-0.5" />
                   <p className="text-secondary-600 whitespace-pre-line">
-                    {t('info.address')}
+                    {t('info.offices.france.address')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Clock className="w-5 h-5 text-primary-600 mt-0.5" />
+                  <p className="text-secondary-600">
+                    {t('info.offices.france.hours')}
                   </p>
                 </div>
               </div>
+            </div>
 
-              {/* Hours */}
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-primary-100 text-primary-600 rounded-lg">
-                  <Clock className="w-6 h-6" />
+            {/* USA Office */}
+            <div className="mb-8 p-6 bg-secondary-50 rounded-xl">
+              <h3 className="text-lg font-bold text-secondary-900 mb-4 flex items-center gap-2">
+                <span className="text-xl">🇺🇸</span>
+                {t('info.offices.usa.title')}
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <Mail className="w-5 h-5 text-primary-600 mt-0.5" />
+                  <a 
+                    href={`mailto:${t('info.offices.usa.email')}`}
+                    className="text-primary-600 hover:text-primary-700 transition-colors"
+                  >
+                    {t('info.offices.usa.email')}
+                  </a>
                 </div>
-                <div>
-                  <p className="font-semibold text-secondary-900">
-                    {t.raw('info.hours').includes('Lundi') ? 'Heures d\'ouverture' : 'Business Hours'}
+                <div className="flex items-start gap-3">
+                  <Phone className="w-5 h-5 text-primary-600 mt-0.5" />
+                  <a 
+                    href={`tel:${t('info.offices.usa.phone').replace(/\s/g, '')}`}
+                    className="text-primary-600 hover:text-primary-700 transition-colors"
+                  >
+                    {t('info.offices.usa.phone')}
+                  </a>
+                </div>
+                <div className="flex items-start gap-3">
+                  <MapPin className="w-5 h-5 text-primary-600 mt-0.5" />
+                  <p className="text-secondary-600 whitespace-pre-line">
+                    {t('info.offices.usa.address')}
                   </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Clock className="w-5 h-5 text-primary-600 mt-0.5" />
                   <p className="text-secondary-600">
-                    {t('info.hours')}
+                    {t('info.offices.usa.hours')}
                   </p>
                 </div>
               </div>

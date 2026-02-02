@@ -311,10 +311,22 @@
     "info": {
       "title": "Get in Touch",
       "description": "Have questions about our services? Want to discuss a custom training solution? We're here to help.",
-      "email": "info@capitalcompetences.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Business Center, Suite 500\nNew York, NY 10001\nUnited States",
-      "hours": "Monday - Friday: 9:00 AM - 6:00 PM EST"
+      "offices": {
+        "france": {
+          "title": "France Office (Headquarters)",
+          "email": "contactus@capital-competences.org",
+          "phone": "+33 (0)2 41 66 76 60",
+          "address": "99 Avenue Achille Peretti\n92200 Neuilly-sur-Seine\nFrance",
+          "hours": "Monday - Friday: 9:00 AM - 6:00 PM CET"
+        },
+        "usa": {
+          "title": "USA Office",
+          "email": "contactus@capital-competences.org",
+          "phone": "+1 (555) 123-4567",
+          "address": "123 Business Center, Suite 500\nNew York, NY 10001\nUnited States",
+          "hours": "Monday - Friday: 9:00 AM - 6:00 PM EST"
+        }
+      }
     },
     "social": {
       "title": "Follow Us",
