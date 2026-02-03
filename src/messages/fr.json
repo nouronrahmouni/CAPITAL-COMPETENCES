@@ -203,9 +203,39 @@
       "tips": "Conseils et Meilleures Pratiques",
       "offers": "Offres Spéciales",
       "partnership": "Partenariats",
-      "education": "Éducation"
+      "education": "Éducation",
+      "culture": "Culture & Arts",
+      "youth": "Programmes Jeunesse",
+      "volunteer": "Bénévolat"
     },
     "posts": [
+      {
+        "id": "10",
+        "title": "Devenez Bénévole : Faites une Différence et Soutenez Notre Mission",
+        "excerpt": "Nos programmes de bénévolat offrent aux individus l'opportunité de faire une véritable différence dans la vie des autres en contribuant leur temps, leurs compétences et leur expertise.",
+        "category": "volunteer",
+        "date": "3 février 2026",
+        "readTime": "4 min de lecture",
+        "content": "Chez CAPITAL-COMPÉTENCES, nous croyons au pouvoir de redonner à la communauté. Nos programmes de bénévolat offrent aux individus l'opportunité de faire une véritable différence dans la vie des autres en contribuant leur temps, leurs compétences et leur expertise à nos initiatives.\n\nFaire du bénévolat avec nous signifie que vous aurez la chance de :\n\n• Soutenir nos cours de langue et aider les immigrés à apprendre le français\n• Assister avec nos ateliers culturels et aider les individus à découvrir leur potentiel créatif\n• Fournir des conseils dans nos programmes de formation professionnelle pour aider les jeunes à trouver un emploi\n• Travailler directement avec les communautés marginalisées et les aider à surmonter les défis\n\nLes bénévoles sont une partie essentielle de notre organisation, et vos contributions nous aideront à élargir notre portée et à créer un changement durable. Que vous souhaitiez redonner à votre communauté, acquérir de l'expérience ou rencontrer des personnes partageant les mêmes idées, nous vous accueillons à bras ouverts !\n\nRejoignez notre équipe de bénévoles passionnés et faites une différence dès aujourd'hui. Ensemble, nous pouvons créer une société plus inclusive et autonomisée."
+      },
+      {
+        "id": "9",
+        "title": "Offre Spéciale : Programmes de Formation Professionnelle Gratuits pour les Jeunes dans le Besoin",
+        "excerpt": "Nous sommes ravis d'annoncer une offre spéciale pour les jeunes ayant besoin de formation professionnelle. Nos programmes gratuits visent à doter les jeunes de compétences essentielles.",
+        "category": "youth",
+        "date": "3 février 2026",
+        "readTime": "4 min de lecture",
+        "content": "Nous sommes ravis d'annoncer une offre spéciale pour les jeunes ayant besoin de formation professionnelle. Grâce à nos programmes de formation professionnelle gratuits, CAPITAL-COMPÉTENCES vise à doter les jeunes des compétences et des connaissances dont ils ont besoin pour prospérer sur le marché du travail actuel. Que vous cherchiez à commencer une carrière ou à acquérir de nouvelles compétences, nous avons un programme pour vous !\n\nNos programmes de formation professionnelle comprennent :\n\n• Création de CV et coaching pour les entretiens\n• Développement des compétences douces, y compris la communication et le travail en équipe\n• Formation technique dans des domaines comme l'informatique, le service à la clientèle et l'administration\n• Soutien à la recherche d'emploi pour aider les participants à décrocher leur premier emploi\n\nNous nous engageons à aider les jeunes à gagner en confiance et à acquérir les compétences nécessaires pour réussir dans leurs carrières. Cette offre est disponible pour une période limitée, alors ne manquez pas votre chance de profiter de cette opportunité !\n\nSi vous ou quelqu'un que vous connaissez pourrait bénéficier de nos programmes de formation professionnelle, n'hésitez pas à nous contacter. Travaillons ensemble pour un avenir plus radieux pour nos jeunes."
+      },
+      {
+        "id": "8",
+        "title": "Rejoignez Nos Ateliers Culturels : Favoriser le Développement Personnel par l'Art et la Culture",
+        "excerpt": "Découvrez nos ateliers culturels conçus pour aider les individus à se connecter avec leur créativité, à découvrir de nouvelles compétences et à s'engager dans l'expression artistique.",
+        "category": "culture",
+        "date": "3 février 2026",
+        "readTime": "4 min de lecture",
+        "content": "Chez CAPITAL-COMPÉTENCES, nous comprenons l'importance du développement personnel pour mener une vie épanouie. C'est pourquoi nous proposons des ateliers culturels qui aident les individus à se connecter avec leur créativité, à découvrir de nouvelles compétences et à s'engager dans l'expression artistique. Ces ateliers sont conçus pour des personnes de tous horizons et font partie intégrante de notre mission de favoriser l'autonomisation.\n\nNos ateliers culturels comprennent :\n\n• Cours d'art où les participants apprennent la peinture, le dessin et d'autres formes d'expression créative\n• Ateliers de théâtre et de musique qui aident les individus à gagner en confiance et à améliorer leurs compétences en communication\n• Cours de danse et de mouvement qui encouragent l'expression personnelle et le bien-être physique\n\nCes activités ne se contentent pas de fournir un exutoire créatif, elles créent également un sentiment de communauté, aidant les gens à surmonter les défis et à renforcer leur confiance en eux. Notre objectif est de créer un espace où les individus peuvent grandir personnellement et professionnellement tout en faisant partie d'une communauté de soutien.\n\nSi vous cherchez à découvrir votre potentiel créatif ou simplement à vous connecter avec des personnes partageant les mêmes idées, nos ateliers culturels sont l'endroit idéal pour commencer. Inscrivez-vous aujourd'hui et découvrez le pouvoir de l'expression artistique !"
+      },
       {
         "id": "7",
         "title": "Cours de Français Gratuits : Autonomiser les Immigrants pour un Avenir Meilleur",

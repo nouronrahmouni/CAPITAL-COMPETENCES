@@ -22,6 +22,9 @@ const blogImages: Record<string, string> = {
   '5': '/images/blog/lululemonoffers.png',
   '6': '/images/blog/empowering-communities.jpeg',
   '7': '/images/blog/free-french-courses.jpeg',
+  '8': '/images/blog/cultural-workshops.jpeg',
+  '9': '/images/blog/job-training-youth.jpeg',
+  '10': '/images/blog/volunteer-with-us.jpeg',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

@@ -203,9 +203,39 @@
       "tips": "Tips & Best Practices",
       "offers": "Special Offers",
       "partnership": "Partnerships",
-      "education": "Education"
+      "education": "Education",
+      "culture": "Culture & Arts",
+      "youth": "Youth Programs",
+      "volunteer": "Volunteering"
     },
     "posts": [
+      {
+        "id": "10",
+        "title": "Volunteer with Us: Make a Difference and Support Our Mission",
+        "excerpt": "Our volunteer programs offer individuals the opportunity to make a real difference in the lives of others by contributing their time, skills, and expertise.",
+        "category": "volunteer",
+        "date": "February 3, 2026",
+        "readTime": "4 min read",
+        "content": "At CAPITAL-COMPETENCES, we believe in the power of giving back to the community. Our volunteer programs offer individuals the opportunity to make a real difference in the lives of others by contributing their time, skills, and expertise to our initiatives.\n\nVolunteering with us means you'll have the chance to:\n\n• Support our language courses and help immigrants learn French\n• Assist with our cultural workshops and help individuals discover their creative potential\n• Provide guidance in our vocational training programs to help young people find employment\n• Work directly with marginalized communities and help them overcome challenges\n\nVolunteers are an essential part of our organization, and your contributions will help us expand our reach and create lasting change. Whether you want to give back to your community, gain experience, or meet like-minded individuals, we welcome you with open arms!\n\nJoin our team of passionate volunteers and make a difference today. Together, we can create a more inclusive and empowered society."
+      },
+      {
+        "id": "9",
+        "title": "Special Offer: Free Job Training Programs for Youth in Need",
+        "excerpt": "We are excited to announce a special offer for young people in need of job training. Our free vocational training programs aim to equip youth with essential skills.",
+        "category": "youth",
+        "date": "February 3, 2026",
+        "readTime": "4 min read",
+        "content": "We are excited to announce a special offer for young people in need of job training. Through our free vocational training programs, CAPITAL-COMPETENCES aims to equip youth with the skills and knowledge they need to thrive in today's job market. Whether you're looking to start a career or gain new skills, we have a program for you!\n\nOur vocational training programs include:\n\n• Resume building and interview coaching\n• Soft skills development, including communication and teamwork\n• Technical training in areas such as IT, customer service, and administration\n• Job search support to help participants land their first job\n\nWe are committed to helping young people gain confidence and acquire the skills they need to succeed in their careers. This offer is available for a limited time, so don't miss your chance to take advantage of this opportunity!\n\nIf you or someone you know could benefit from our vocational training programs, don't hesitate to reach out. Let's work together for a brighter future for our youth."
+      },
+      {
+        "id": "8",
+        "title": "Join Our Cultural Workshops: Fostering Personal Development Through Art and Culture",
+        "excerpt": "Discover our cultural workshops designed to help individuals connect with their creativity, learn new skills, and engage in artistic expression.",
+        "category": "culture",
+        "date": "February 3, 2026",
+        "readTime": "4 min read",
+        "content": "At CAPITAL-COMPETENCES, we understand the importance of personal development for leading a fulfilling life. That's why we offer cultural workshops that help individuals connect with their creativity, discover new skills, and engage in artistic expression. These workshops are designed for people from all backgrounds and are an integral part of our mission to foster empowerment.\n\nOur cultural workshops include:\n\n• Art classes where participants learn painting, drawing, and other forms of creative expression\n• Theater and music workshops that help individuals gain confidence and improve their communication skills\n• Dance and movement classes that encourage personal expression and physical well-being\n\nThese activities not only provide a creative outlet but also create a sense of community, helping people overcome challenges and build self-confidence. Our goal is to create a space where individuals can grow personally and professionally while being part of a supportive community.\n\nIf you're looking to discover your creative potential or simply connect with like-minded individuals, our cultural workshops are the perfect place to start. Sign up today and discover the power of artistic expression!"
+      },
       {
         "id": "7",
         "title": "Free French Language Courses: Empowering Immigrants for a Brighter Future",
