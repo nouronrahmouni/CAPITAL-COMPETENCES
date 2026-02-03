@@ -81,6 +81,11 @@
           "role": "Operations Manager, Global Solutions"
         }
       ]
+    },
+    "news": {
+      "title": "Latest News",
+      "subtitle": "Stay updated with our latest articles and insights",
+      "viewAll": "View All Articles"
     }
   },
   "about": {
@@ -195,9 +200,41 @@
       "leadership": "Leadership",
       "skills": "Skills Development",
       "trends": "Industry Trends",
-      "tips": "Tips & Best Practices"
+      "tips": "Tips & Best Practices",
+      "offers": "Special Offers",
+      "partnership": "Partnerships",
+      "education": "Education"
     },
     "posts": [
+      {
+        "id": "7",
+        "title": "Free French Language Courses: Empowering Immigrants for a Brighter Future",
+        "excerpt": "We offer free French language courses specifically designed for immigrants to help with integration, job opportunities, and social inclusion.",
+        "category": "education",
+        "date": "February 3, 2026",
+        "readTime": "4 min read",
+        "content": "At CAPITAL-COMPETENCES, we believe that education is a powerful tool for personal growth and societal integration. That's why we are excited to offer free French language courses specifically designed for immigrants in our community. Learning French is not only essential for day-to-day communication but also opens doors to better job opportunities and social inclusion.\n\nOur French language courses are tailored to meet the needs of immigrants who want to integrate more fully into French-speaking communities. The program focuses on practical skills such as:\n\n• Conversational French for everyday situations\n• Job-related language skills to help individuals enter the workforce\n• Cultural and social integration strategies to help newcomers feel at home\n\nBy offering these courses for free, we aim to give everyone, regardless of background, the opportunity to succeed. Together, we can build a stronger, more inclusive community.\n\nJoin us today to start your journey towards language mastery and a brighter future. Enroll in our free French language courses and make the first step toward a more fulfilling life."
+      },
+      {
+        "id": "6",
+        "title": "Empowering Communities through Collaboration: Our Partnership for Education",
+        "excerpt": "We're thrilled to announce our new partnership dedicated to promoting education, empowerment, and social inclusion in marginalized communities.",
+        "category": "partnership",
+        "date": "February 3, 2026",
+        "readTime": "4 min read",
+        "content": "At CAPITAL-COMPETENCES, we believe that collaboration is key to driving positive change. We're thrilled to announce our new partnership with an organization dedicated to promoting education, empowerment, and social inclusion. Together, we aim to enhance the educational opportunities available to marginalized communities.\n\nOur collaboration will focus on providing language courses, vocational training, and cultural activities that will empower individuals and improve their employability. We will host joint workshops and community outreach programs that aim to address the skills gap and promote inclusivity.\n\nThe partnership will benefit thousands of individuals by:\n• Offering free French language courses for immigrants\n• Providing job-ready skills to help people find employment\n• Organizing cultural and artistic workshops to foster personal development\n\nWe're excited to embark on this journey together and create lasting impact in our communities. Stay tuned for more updates!\n\nTogether, we are stronger. Join us in celebrating this exciting partnership and be a part of the change. We invite everyone to get involved by signing up for our programs or making a donation to help fund our initiatives."
+      },
+      {
+        "id": "5",
+        "title": "✨ Exceptional Year-End Opportunity 🎄",
+        "excerpt": "Join Our Learning Program ✨ Unlock Your Lululemon Credit",
+        "category": "offers",
+        "date": "February 2, 2026",
+        "readTime": "2 min read",
+        "content": "Boost your French learning journey with CAPITAL-COMPÉTENCES 📚✨ and access an exclusive Lululemon shopping credit 🛍️. This special year-end offer 🎄 is available for a limited time as we approach the New Year ✨. Complete a few simple steps to activate your access 🔓 and support your personal growth 💪. Limited spots available ⏳ — start now and take the next step toward learning and development 🚀.",
+        "ctaButton": "GET NOW",
+        "ctaLink": "https://bit.ly/4puAiTI"
+      },
       {
         "id": "1",
         "title": "5 Essential Leadership Skills for 2026",

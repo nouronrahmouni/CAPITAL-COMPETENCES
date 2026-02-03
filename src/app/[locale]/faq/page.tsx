@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import FAQAccordion from './FAQAccordion';
 
@@ -24,9 +25,19 @@ function HeroSection() {
   const t = useTranslations('faq.hero');
 
   return (
-    <section className="relative hero-gradient text-white py-16 md:py-24">
+    <section className="relative hero-gradient text-white py-24 md:py-40">
+      {/* Background Cover Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/blog-faq-hero.jpeg"
+          alt="FAQ"
+          fill
+          className="object-cover opacity-30"
+          priority
+        />
+      </div>
       <div className="container-custom relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {t('title')}
           </h1>

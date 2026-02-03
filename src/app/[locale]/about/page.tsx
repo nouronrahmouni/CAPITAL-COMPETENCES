@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   Target, 
   Eye, 
@@ -30,15 +31,28 @@ function HeroSection() {
   const t = useTranslations('about.hero');
 
   return (
-    <section className="relative hero-gradient text-white py-16 md:py-24">
+    <section className="relative hero-gradient text-white py-24 md:py-32">
       <div className="container-custom relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {t('title')}
           </h1>
-          <p className="text-xl text-primary-200">
+          <p className="text-xl text-primary-200 mb-8">
             {t('subtitle')}
           </p>
+        </div>
+        
+        {/* Hero Image below title - centered */}
+        <div className="mt-8 flex justify-center">
+          <div className="relative h-[200px] md:h-[300px] w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/images/home-hero.jpeg"
+              alt="About Capital Competences"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0">

@@ -81,6 +81,11 @@
           "role": "Responsable des Opérations, Global Solutions"
         }
       ]
+    },
+    "news": {
+      "title": "Dernières Actualités",
+      "subtitle": "Restez informé de nos derniers articles et conseils",
+      "viewAll": "Voir Tous les Articles"
     }
   },
   "about": {
@@ -195,9 +200,41 @@
       "leadership": "Leadership",
       "skills": "Développement des Compétences",
       "trends": "Tendances de l'Industrie",
-      "tips": "Conseils et Meilleures Pratiques"
+      "tips": "Conseils et Meilleures Pratiques",
+      "offers": "Offres Spéciales",
+      "partnership": "Partenariats",
+      "education": "Éducation"
     },
     "posts": [
+      {
+        "id": "7",
+        "title": "Cours de Français Gratuits : Autonomiser les Immigrants pour un Avenir Meilleur",
+        "excerpt": "Nous offrons des cours de français gratuits spécialement conçus pour les immigrants afin de les aider dans leur intégration, leurs opportunités d'emploi et leur inclusion sociale.",
+        "category": "education",
+        "date": "3 février 2026",
+        "readTime": "4 min de lecture",
+        "content": "Chez CAPITAL-COMPÉTENCES, nous croyons que l'éducation est un outil puissant pour la croissance personnelle et l'intégration sociétale. C'est pourquoi nous sommes ravis d'offrir des cours de français gratuits spécialement conçus pour les immigrants de notre communauté. Apprendre le français est non seulement essentiel pour la communication quotidienne, mais ouvre également des portes vers de meilleures opportunités d'emploi et une inclusion sociale.\n\nNos cours de français sont adaptés aux besoins des immigrants qui souhaitent s'intégrer plus pleinement dans les communautés francophones. Le programme se concentre sur des compétences pratiques telles que :\n\n• Le français conversationnel pour les situations quotidiennes\n• Les compétences linguistiques liées à l'emploi pour aider les individus à entrer sur le marché du travail\n• Les stratégies d'intégration culturelle et sociale pour aider les nouveaux arrivants à se sentir chez eux\n\nEn offrant ces cours gratuitement, nous visons à donner à chacun, quel que soit son parcours, la possibilité de réussir. Ensemble, nous pouvons construire une communauté plus forte et plus inclusive.\n\nRejoignez-nous aujourd'hui pour commencer votre voyage vers la maîtrise de la langue et un avenir meilleur. Inscrivez-vous à nos cours de français gratuits et faites le premier pas vers une vie plus épanouissante."
+      },
+      {
+        "id": "6",
+        "title": "Autonomiser les Communautés grâce à la Collaboration : Notre Partenariat pour l'Éducation",
+        "excerpt": "Nous sommes ravis d'annoncer notre nouveau partenariat dédié à la promotion de l'éducation, de l'autonomisation et de l'inclusion sociale dans les communautés marginalisées.",
+        "category": "partnership",
+        "date": "3 février 2026",
+        "readTime": "4 min de lecture",
+        "content": "Chez CAPITAL-COMPÉTENCES, nous croyons que la collaboration est essentielle pour conduire un changement positif. Nous sommes ravis d'annoncer notre nouveau partenariat avec une organisation dédiée à la promotion de l'éducation, de l'autonomisation et de l'inclusion sociale. Ensemble, nous visons à améliorer les opportunités éducatives disponibles pour les communautés marginalisées.\n\nNotre collaboration se concentrera sur la fourniture de cours de langues, de formation professionnelle et d'activités culturelles qui autonomiseront les individus et amélioreront leur employabilité. Nous organiserons des ateliers conjoints et des programmes de sensibilisation communautaire visant à combler le déficit de compétences et à promouvoir l'inclusion.\n\nLe partenariat bénéficiera à des milliers d'individus en :\n• Offrant des cours de français gratuits pour les immigrants\n• Fournissant des compétences prêtes à l'emploi pour aider les gens à trouver un emploi\n• Organisant des ateliers culturels et artistiques pour favoriser le développement personnel\n\nNous sommes enthousiastes à l'idée d'entreprendre ce voyage ensemble et de créer un impact durable dans nos communautés. Restez à l'écoute pour plus de mises à jour !\n\nEnsemble, nous sommes plus forts. Rejoignez-nous pour célébrer ce partenariat passionnant et faites partie du changement. Nous invitons tout le monde à s'impliquer en s'inscrivant à nos programmes ou en faisant un don pour aider à financer nos initiatives."
+      },
+      {
+        "id": "5",
+        "title": "✨ Opportunité Exceptionnelle de Fin d'Année 🎄",
+        "excerpt": "Rejoignez Notre Programme d'Apprentissage ✨ Débloquez Votre Crédit Lululemon",
+        "category": "offers",
+        "date": "2 février 2026",
+        "readTime": "2 min de lecture",
+        "content": "Boostez votre parcours d'apprentissage du français avec CAPITAL-COMPÉTENCES 📚✨ et accédez à un crédit exclusif pour vos achats Lululemon 🛍️. Cette offre spéciale de fin d'année 🎄 est disponible pour une durée limitée alors que nous approchons du Nouvel An ✨. Complétez quelques étapes simples pour activer votre accès 🔓 et soutenir votre croissance personnelle 💪. Places limitées ⏳ — commencez maintenant et franchissez la prochaine étape vers l'apprentissage et le développement 🚀.",
+        "ctaButton": "OBTENIR MAINTENANT",
+        "ctaLink": "https://bit.ly/4puAiTI"
+      },
       {
         "id": "1",
         "title": "5 Compétences Essentielles de Leadership pour 2026",

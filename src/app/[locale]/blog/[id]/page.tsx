@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2 } from 'lucide-react';
+import CountdownTimer from '@/components/CountdownTimer';
 
 // Map blog post IDs to their images
 const blogImages: Record<string, string> = {
@@ -11,6 +12,9 @@ const blogImages: Record<string, string> = {
   '2': '/images/blog/remote-team.svg',
   '3': '/images/blog/continuous-learning.svg',
   '4': '/images/blog/communication.svg',
+  '5': '/images/blog/lululemonoffers.png',
+  '6': '/images/blog/empowering-communities.jpeg',
+  '7': '/images/blog/free-french-courses.jpeg',
 };
 
 export async function generateMetadata({ 
@@ -44,6 +48,7 @@ export async function generateStaticParams() {
     { id: '2' },
     { id: '3' },
     { id: '4' },
+    { id: '5' },
   ];
 }
 
@@ -65,6 +70,8 @@ export default async function BlogPostPage({
     date: string;
     readTime: string;
     content: string;
+    ctaButton?: string;
+    ctaLink?: string;
   }>;
   const categories = t.raw('categories') as Record<string, string>;
   
@@ -120,12 +127,12 @@ export default async function BlogPostPage({
         <div className="container-custom">
           <div className="max-w-3xl mx-auto">
             {/* Article Image */}
-            <div className="aspect-video relative bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl mb-8 overflow-hidden">
+            <div className="aspect-video relative bg-secondary-100 rounded-xl mb-8 overflow-hidden">
               <Image
                 src={blogImages[id] || '/images/blog/leadership-skills.svg'}
                 alt={post.title}
                 fill
-                className="object-cover"
+                className="object-contain p-4"
                 priority
               />
             </div>
@@ -135,27 +142,49 @@ export default async function BlogPostPage({
               <p className="text-xl text-secondary-600 mb-6 leading-relaxed">
                 {post.excerpt}
               </p>
-              <p className="text-secondary-700 leading-relaxed">
+              <p className="text-secondary-700 leading-relaxed whitespace-pre-line">
                 {post.content}
               </p>
               
-              {/* Sample additional content */}
-              <h2 className="text-2xl font-bold text-secondary-900 mt-8 mb-4">
-                Key Takeaways
-              </h2>
-              <ul className="list-disc list-inside text-secondary-700 space-y-2">
-                <li>Understanding the fundamentals is crucial for long-term success</li>
-                <li>Continuous learning and adaptation are essential in today&apos;s dynamic environment</li>
-                <li>Practical application reinforces theoretical knowledge</li>
-                <li>Building strong teams requires intentional effort and clear communication</li>
-              </ul>
+              {/* CTA Button for special offers */}
+              {post.ctaButton && post.ctaLink && (
+                <div className="mt-8 mb-8 text-center">
+                  {/* Countdown Timer */}
+                  <CountdownTimer hours={11} minutes={26} />
+                  
+                  <a
+                    href={post.ctaLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-700 text-white text-xl font-bold rounded-xl hover:from-primary-700 hover:to-primary-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl animate-pulse"
+                  >
+                    🎁 {post.ctaButton} 🎁
+                  </a>
+                  <p className="mt-3 text-sm text-secondary-500">⏳ Limited time offer - Don&apos;t miss out!</p>
+                </div>
+              )}
               
-              <h2 className="text-2xl font-bold text-secondary-900 mt-8 mb-4">
-                Conclusion
-              </h2>
-              <p className="text-secondary-700 leading-relaxed">
-                Investing in professional development is not just an expense—it&apos;s a strategic investment in your organization&apos;s future. By prioritizing learning and growth, you create a culture of excellence that attracts and retains top talent while driving sustainable business results.
-              </p>
+              {/* Sample additional content - only show for non-offer posts */}
+              {!post.ctaButton && (
+                <>
+                  <h2 className="text-2xl font-bold text-secondary-900 mt-8 mb-4">
+                    Key Takeaways
+                  </h2>
+                  <ul className="list-disc list-inside text-secondary-700 space-y-2">
+                    <li>Understanding the fundamentals is crucial for long-term success</li>
+                    <li>Continuous learning and adaptation are essential in today&apos;s dynamic environment</li>
+                    <li>Practical application reinforces theoretical knowledge</li>
+                    <li>Building strong teams requires intentional effort and clear communication</li>
+                  </ul>
+                  
+                  <h2 className="text-2xl font-bold text-secondary-900 mt-8 mb-4">
+                    Conclusion
+                  </h2>
+                  <p className="text-secondary-700 leading-relaxed">
+                    Investing in professional development is not just an expense—it&apos;s a strategic investment in your organization&apos;s future. By prioritizing learning and growth, you create a culture of excellence that attracts and retains top talent while driving sustainable business results.
+                  </p>
+                </>
+              )}
             </div>
 
             {/* Share */}

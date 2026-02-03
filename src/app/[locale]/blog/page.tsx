@@ -2,7 +2,19 @@ import { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Clock, Tag, ArrowRight } from 'lucide-react';
+
+// Map blog post IDs to their images
+const blogImages: Record<string, string> = {
+  '1': '/images/blog/leadership-skills-2026.png',
+  '2': '/images/blog/remote-team.svg',
+  '3': '/images/blog/continuous-learning.svg',
+  '4': '/images/blog/communication.svg',
+  '5': '/images/blog/lululemonoffers.png',
+  '6': '/images/blog/empowering-communities.jpeg',
+  '7': '/images/blog/free-french-courses.jpeg',
+};
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -23,9 +35,19 @@ function HeroSection() {
   const t = useTranslations('blog.hero');
 
   return (
-    <section className="relative hero-gradient text-white py-16 md:py-24">
+    <section className="relative hero-gradient text-white py-24 md:py-40">
+      {/* Background Cover Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/blog-faq-hero.jpeg"
+          alt="Blog"
+          fill
+          className="object-cover opacity-30"
+          priority
+        />
+      </div>
       <div className="container-custom relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {t('title')}
           </h1>
@@ -65,15 +87,14 @@ function BlogPosts() {
         <div className="mb-12">
           <div className="card overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-              <div className="h-64 lg:h-auto bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
-                <div className="text-white text-center p-8">
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center">
-                    <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                    </svg>
-                  </div>
-                  <p className="text-lg font-medium">Featured Article</p>
-                </div>
+              <div className="h-64 lg:h-auto relative bg-secondary-100">
+                <Image
+                  src={blogImages[posts[0].id] || '/images/blog/leadership-skills-2026.png'}
+                  alt={posts[0].title}
+                  fill
+                  className="object-contain p-4"
+                  priority
+                />
               </div>
               <div className="p-6 lg:p-10">
                 <div className="flex items-center gap-4 text-sm text-secondary-500 mb-4">
@@ -111,10 +132,13 @@ function BlogPosts() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.slice(1).map((post) => (
             <article key={post.id} className="card overflow-hidden hover:transform hover:-translate-y-1 transition-transform duration-300">
-              <div className="h-48 bg-gradient-to-br from-primary-300 to-primary-500 flex items-center justify-center">
-                <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-                  <Tag className="w-8 h-8 text-white" />
-                </div>
+              <div className="h-48 relative bg-secondary-100">
+                <Image
+                  src={blogImages[post.id] || '/images/blog/leadership-skills-2026.png'}
+                  alt={post.title}
+                  fill
+                  className="object-contain p-2"
+                />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-secondary-500 mb-3">
