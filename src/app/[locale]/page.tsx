@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ExploreServicesButton } from '@/components';
 import { 
   ArrowRight, 
   Users, 
@@ -91,13 +92,10 @@ function HeroSection() {
               {t('description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-              <Link
+              <ExploreServicesButton
                 href={locale === 'fr' ? '/fr/services' : '/en/services'}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold bg-white text-primary-700 rounded-lg hover:bg-primary-50 transition-colors duration-200 shadow-lg hover:shadow-xl"
-              >
-                {t('cta')}
-                <ArrowRight className="w-5 h-5" />
-              </Link>
+                label={t('cta')}
+              />
               <Link
                 href={locale === 'fr' ? '/fr/contact' : '/en/contact'}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold bg-transparent text-white border-2 border-white rounded-lg hover:bg-white/10 transition-colors duration-200"
