@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { locales, Locale } from '@/i18n';
 import { Header, Footer } from '@/components';
 import '../globals.css';
@@ -34,6 +35,19 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#1e40af" />
       </head>
       <body className="min-h-screen flex flex-col bg-white text-secondary-900 antialiased">
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16764013342"
+          strategy="afterInteractive"
+        />
+        <Script id="google-gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16764013342');
+          `}
+        </Script>
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main id="main-content" className="flex-grow">
