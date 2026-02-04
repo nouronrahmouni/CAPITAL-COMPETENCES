@@ -23,7 +23,9 @@ export default function ExploreServicesButton({ href, label }: ExploreServicesBu
     if (typeof window !== 'undefined' && window.gtag && !hasTracked.current) {
       hasTracked.current = true;
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-16764013342/ads_conversion_Contact_Us_1'
+        'send_to': 'AW-16764013342/7vQLCK6qipUaEJ6W2rk-',
+        'value': 3.0,
+        'currency': 'USD'
       });
     }
   };
