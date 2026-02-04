@@ -33,14 +33,12 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#1e40af" />
-      </head>
-      <body className="min-h-screen flex flex-col bg-white text-secondary-900 antialiased">
         {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-16764013342"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
-        <Script id="google-gtag" strategy="afterInteractive">
+        <Script id="google-gtag" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -48,6 +46,8 @@ export default async function LocaleLayout({
             gtag('config', 'AW-16764013342');
           `}
         </Script>
+      </head>
+      <body className="min-h-screen flex flex-col bg-white text-secondary-900 antialiased">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main id="main-content" className="flex-grow">
