@@ -1,5 +1,6 @@
 'use client';
 
+import { useRef } from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
@@ -15,10 +16,15 @@ interface ExploreServicesButtonProps {
 }
 
 export default function ExploreServicesButton({ href, label }: ExploreServicesButtonProps) {
+  const hasTracked = useRef(false);
+
   const handleClick = () => {
-    // Fire Google Ads conversion event
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'ads_conversion_Contact_Us_1', {});
+    // Fire Google Ads conversion event only once per click session
+    if (typeof window !== 'undefined' && window.gtag && !hasTracked.current) {
+      hasTracked.current = true;
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-16764013342/ads_conversion_Contact_Us_1'
+      });
     }
   };
 
